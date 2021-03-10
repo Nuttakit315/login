@@ -2,7 +2,9 @@
   <div class="About">
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
     <p class="h3 my-0 me-md-auto fw-normal">MIDORI-SHOP</p>
-    <router-link to="/" class="btn btn-outline-warning"> SHOP </router-link>
+    <nav class="my-2 my-md-0 me-md-3">
+    <router-link to="/" > SHOP </router-link>
+    </nav>
     <router-link to="/about" class="btn btn-outline-primary">ตระกร้าสินค้า</router-link>
     </header>
     <h1 class=text-center >รายการสินค้า</h1>
