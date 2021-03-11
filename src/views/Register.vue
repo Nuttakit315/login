@@ -40,7 +40,7 @@
   </b-col>
   </b-row>
   <br>
-  <b-button variant="success" @click="addData()" v-on:click="$store.state.say('สมัครสำเร็จ ระบบได้ทำการเก็บข้อมูลของท่านแล้ว')" onClick="javascript:location.reload();"> Submit </b-button>
+  <b-button variant="success" @click="addData()" v-on:click="$store.state.say('สมัครสำเร็จ ระบบได้ทำการเก็บข้อมูลของท่านแล้ว')"> Submit </b-button>
   </b-form>
   </b-card>
   </b-container>
