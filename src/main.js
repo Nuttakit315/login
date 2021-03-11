@@ -9,13 +9,12 @@ import firebase from 'firebase/app'
 import "firebase/firestore";
 if (!firebase.apps.length) {
   const firebaseConfig = {
-    apiKey: "AIzaSyDXIfIa0Z_EtWhE_vyIw3QW179EdndUx0o",
-    authDomain: "midori-test-e2d15.firebaseapp.com",
-    projectId: "midori-test-e2d15",
-    storageBucket: "midori-test-e2d15.appspot.com",
-    messagingSenderId: "1028424293729",
-    appId: "1:1028424293729:web:961579088a182b99427920",
-    measurementId: "G-16031ZTZ3X"
+    apiKey: "AIzaSyBsAz6ZKkeFvj-26vU9aeVfLLDcreLDZAg",
+    authDomain: "miniproject-dbff8.firebaseapp.com",
+    projectId: "miniproject-dbff8",
+    storageBucket: "miniproject-dbff8.appspot.com",
+    messagingSenderId: "414636520629",
+    appId: "1:414636520629:web:b714303693bfc36e27fafc"
   };
   firebase.initializeApp(firebaseConfig)
 }

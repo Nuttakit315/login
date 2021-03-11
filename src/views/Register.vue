@@ -60,12 +60,12 @@ export default {
   methods: {
     addData() {
       const data = {
-        email: this.email,
-        name: this.name,
-        surname: this.surname,
-        pass: this.pass,
-        phone: this.phone,
-        gender: this.gender,
+        Email: this.email,
+        First_Name: this.name,
+        Last_Name: this.surname,
+        Password: this.pass,
+        Phone: this.phone,
+        Gender: this.gender,
       };
       db.collection('User')
         .doc('infouser')

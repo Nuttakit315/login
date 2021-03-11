@@ -37,7 +37,7 @@
         </b-row>
         <br >
         <b-button href="#" variant="info">Login</b-button>&nbsp;
-        <b-button href="/register" variant="primary">Sign in now</b-button>
+        <router-link to="/register" class="btn btn-outline-primary">Sign in now</router-link>
       </b-card>
     </b-container>
   </div>
